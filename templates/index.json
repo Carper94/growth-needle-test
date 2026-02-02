@@ -9,76 +9,79 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_banner_hWry9N": {
+      "type": "hero-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "testimonial_EdjNaz": {
+          "type": "testimonial",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor”",
+            "star_number": 5,
+            "author": "Lorem ipsum",
+            "date": "22/09/1996"
           }
         },
-        "button": {
-          "type": "buttons",
+        "testimonial_KUTpbD": {
+          "type": "testimonial",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor”",
+            "star_number": 5,
+            "author": "Lorem ipsum",
+            "date": "22/09/1996"
+          }
+        },
+        "testimonial_bkRhp9": {
+          "type": "testimonial",
+          "settings": {
+            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor”",
+            "star_number": 5,
+            "author": "Lorem ipsum",
+            "date": "22/09/1996"
+          }
+        },
+        "testimonial_UzGdxY": {
+          "type": "testimonial",
+          "settings": {
+            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor”",
+            "star_number": 5,
+            "author": "Lorem ipsum",
+            "date": "22/09/1996"
+          }
+        },
+        "testimonial_PE4xD4": {
+          "type": "testimonial",
+          "settings": {
+            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor”",
+            "star_number": 5,
+            "author": "Lorem ipsum",
+            "date": "22/09/1996"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "testimonial_EdjNaz",
+        "testimonial_KUTpbD",
+        "testimonial_bkRhp9",
+        "testimonial_UzGdxY",
+        "testimonial_PE4xD4"
       ],
+      "name": "Hero banner",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "heading": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+        "show_button": true,
+        "button_text": "Shop Now",
+        "button_link": "#",
+        "caption": "Over 100,000+ Happy customers",
+        "caption_link": "#",
+        "image": "shopify://shop_images/268f28a7ca7ff53a8a4b804834821e3663c7521c.png",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero_banner_hWry9N"
   ]
 }
